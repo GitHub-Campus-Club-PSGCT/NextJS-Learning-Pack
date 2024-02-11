@@ -65,5 +65,57 @@ What import alias would you like configured? @/*
 ```
 
 ## This is how your project structure will look like:
-![alt text](/imageAssets/image.png)
+![alt text](/imageAssets/image.png)   
+
+### Now we will be explaining the NextJS project file by file: -
+
+- **.gitignore**:    
+This file is used to ignore the files and directories that you don't want to push to your git repository.
+
+- **next-env.d.ts**:   
+This file is used to declare types for NextJS.
+
+- **package.json**:
+This file is used to declare the dependencies and scripts for your project. This will have all the packages that we have installed for the specific project and the scripts that we can run for the project.
+
+- **package-lock.json**:
+This file is used to lock the versions of the packages that you have installed in your project. This is used to ensure that the same version of the package is installed in all the environments.
+
+- **README.md**:
+We use this file to describe the project and the instructions to run the project. This allows us to give a brief description of the website for developers who are new to the project.
+
+- **tsconfig.json**:
+This file is used to configure TypeScript for your project. You can configure the compiler options, include and exclude files, and many more.
+
+- **public**:
+This directory is used to store the public files like images, fonts, and many more. We use this directory to store the files that we want to be publicly accessible.
+
+- **.eslintrc.json**:
+This file is used to configure ESLint for your project. You can configure the rules, plugins, and many more. ESLint is used to find and fix problems in your JavaScript code.
+
+- **postcss.config.js**:
+This file is used to configure PostCSS for your project. You can configure the plugins, and many more. PostCSS is a tool for transforming CSS with JavaScript.
+
+- **tailwind.config.js**:
+This file is used to configure Tailwind CSS for your project. You can configure the plugins, and many more. Tailwind CSS is a utility-first CSS framework. Tailwind CSS is a in-line CSS utility to configure the CSS for the component in place. 
+
+- **node_modules**:
+This directory is used to store the installed packages for your project. This directory is created when you run the `npm install` or `yarn install` command.
+
+- **app**:
+   - **favicon.ico**:
+    This file is used to set the favicon for your website. The favicon is the icon that is displayed in the browser tab.
+
+    - **globals.css**:
+    This file is used to set the global styles for your website. You can set the global styles like the font-family, font-size, and many more.
+
+    - **layout.tsx**:
+    This file is used to set the layout for your website. You can set the layout for your website like the header, footer, and many more. We can arrange the elements in the page using the layout.tsx file. Each page will have a layout.tsx file which will be used to set the layout for the page. These are a set of components that are used to set the layout for the website.
+
+    - **page.tsx**:
+    This file is used to set the page for your website. You can set the page for your website like the home page, about page, and many more. We can arrange the elements in the page using the page.tsx file. Each page will have a page.tsx file which will be used to set the information for the page. These are a set of components that are used to design the screen for the website. 
+    
+
+## Deep Dive: 
+We will be adding detailed comments to the pages and layout files to explain the code in detail.
 
